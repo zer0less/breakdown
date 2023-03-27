@@ -1,0 +1,25 @@
+{
+    "name": "breakdown",
+    "displayName": "Breakdown Language",
+    "description": "A cool language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "breakdown",
+            "aliases": ["Breakdown", "breakdown"],
+            "extensions": [".bd"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "breakdown",
+            "scopeName": "source.bd",
+            "path": "./syntaxes/breakdown.tmLanguage.json"
+        }]
+    }
+}
