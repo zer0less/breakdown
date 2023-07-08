@@ -1,13 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Break",
+	"scopeName": "source.bd",
 	"patterns": [
-		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
-		}
+		{ "include": "#keywords" },
+		{ "include": "#strings" }
 	],
 	"repository": {
 		"keywords": {
@@ -27,6 +24,5 @@
 				}
 			]
 		}
-	},
-	"scopeName": "source.bd"
+	}
 }
